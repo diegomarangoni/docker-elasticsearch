@@ -1,6 +1,6 @@
 # Supported tags and respective `Dockerfile` links
 
--   [`latest` (*latest/Dockerfile*)](https://github.com/diegomarangoni/docker-mariadb-galera/blob/master/Dockerfile)
+-   [`latest` (*latest/Dockerfile*)](https://github.com/diegomarangoni/docker-elasticsearch/blob/master/Dockerfile)
 
 Based on [official repository](https://hub.docker.com/_/elasticsearch/) with the additional plugin [nuxeo/elasticsearch-cloud-etcd](https://github.com/nuxeo/elasticsearch-cloud-etcd).
 
