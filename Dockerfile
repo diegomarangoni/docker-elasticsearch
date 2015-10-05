@@ -1,6 +1,6 @@
 FROM elasticsearch:1.7
 
-COPY cloud-etcd-1.0-SNAPSHOT.zip /tmp/
+COPY elasticsearch-srv-discovery-0.0.1-SNAPSHOT.zip /tmp/
 
-RUN /usr/share/elasticsearch/bin/plugin --install cloud-etcd --url file:///tmp/cloud-etcd-1.0-SNAPSHOT.zip \
+RUN /usr/share/elasticsearch/bin/plugin --install cloud-etcd --url file:///tmp/elasticsearch-srv-discovery-0.0.1-SNAPSHOT.zip \
     && rm -rf /tmp/*

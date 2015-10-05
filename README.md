@@ -2,7 +2,7 @@
 
 -   [`latest` (*latest/Dockerfile*)](https://github.com/diegomarangoni/docker-elasticsearch/blob/master/Dockerfile)
 
-Based on [official repository](https://hub.docker.com/_/elasticsearch/) with the additional plugin [nuxeo/elasticsearch-cloud-etcd](https://github.com/nuxeo/elasticsearch-cloud-etcd).
+Based on [official repository](https://hub.docker.com/_/elasticsearch/) with the additional plugin [grantr/elasticsearch-srv-discovery](https://github.com/grantr/elasticsearch-srv-discovery).
 
 # What is Elasticsearch?
 
